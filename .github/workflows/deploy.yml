@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Deploy repository to test_halunka folder
+      - name: Deploy repository to arsen_test folder
         uses: appleboy/ssh-action@v0.1.6
         with:
           host: 159.223.16.58
